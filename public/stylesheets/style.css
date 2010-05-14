@@ -1,0 +1,137 @@
+	body{background-color:#74665D; margin:0px;}
+		#container{
+			width:96%;
+			background-color:#FFFFFF;
+			border:1px solid #74665D;
+			margin:0px auto;
+			padding:0px;
+		}
+		#Logo{
+		
+			width:270px;
+			margin:16px 20px 10px 20px;
+			top:60px;
+		}
+		 #header{}
+		a.ShoppingCart:link,a.ShoppingCart:visited{font-family:Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; color:#735D4E;text-decoration:none;}
+		a.ShoppingCart:hover{font-family:Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; color:#735D4E;text-decoration:underline;}
+		
+		#topright{
+			position:relative;
+			width:800px;
+			float:right;
+			top:-86px;
+		}
+		#TopBar{
+		text-align:right;
+		 margin:0px;
+		 padding:0px;
+		 position:static;
+		 float:right;
+		 background-color:#FFFFFF; width:800px;}
+		#TopBar ul{
+			list-style-type:none;
+			padding:0;
+			margin:0px;
+			float:right;
+			height:30px;
+			display:block;
+		}
+		#TopBar li
+		{
+			float:left;
+			padding:0px 14px 12px 14px;
+		}
+		#TopBar a:link,a:visited
+		{
+			font-family:Arial, Helvetica, sans-serif;
+			width:60px;
+			font-size:13px;
+			font-weight:bold;
+			color:#74665D;
+			text-align:center;
+			text-decoration:none;
+			text-transform:Capitalize;
+		}
+		#TopBar a:hover,a:active
+		{
+			color:#74665D;
+			text-decoration:underline;
+		}
+		.ClearDiv{clear:both; margin:0px; padding:0px;}
+		#TopBanner{position:fixied; height:134px; float:left}
+		.TopText{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#735D4E; padding:6px; line-height:1.4;}
+		#leftcolumn{
+			background-color:#FFFFFF;
+			float: left;
+			position: fixed;
+			width: 230px;
+			height:auto;
+		}
+			#LeftNav{
+			text-align:left;
+			 margin:0px;
+			 padding:0px;
+			 clear:both;
+			background-color:#FFFFFF;}
+			#LeftNav ul{
+				list-style-type:none;
+				padding:0;
+				margin:0px;
+				float:left;
+				height:30px;
+				display:block;
+			}
+			#LeftNav li
+			{
+				padding:0px 14px 12px 14px;
+			}
+			#LeftNav a.LeftLink:link,a.LeftLink:visited
+			{
+				font-family:Arial, Helvetica, sans-serif;
+				width:60px;
+				font-size:13px;
+				font-weight:bold;
+				color:#74665D;
+				text-align:Left;
+				text-decoration:none;
+				text-transform:Capitalize;
+			}
+			#LeftNav a.LeftLink:hover
+			{
+				color:#74665D;
+				text-decoration:underline;
+			}
+
+			#LeftNav a.LeftLinkSel:link,a.LeftLinkSel:visited
+			{
+				font-family:Arial, Helvetica, sans-serif;
+				width:60px;
+				font-size:14px;
+				font-weight:bold;
+				color:#74665D;
+				text-align:Left;
+				text-decoration:underline;
+				text-transform:Capitalize;
+			}
+			#LeftNav a.LeftLinkSel:hover
+			{
+				color:#74665D;
+				text-decoration:underline;
+			}
+		
+		#rightcolumn{
+			float: left;
+			width: 945px;
+			text-align:right;
+			background-color:#FFFFFF;
+		}
+		a.TopMainLink:link,a.TopMainLink:visited{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-transform:uppercase; color:#735D4E;text-decoration:none;}
+		a.TopMainLink:hover{font-family:Arial, Helvetica, sans-serif; font-size:14px; text-transform:uppercase; color:#735D4E;text-decoration:underline;}
+		a.TopMainLinkSel:link,a.TopMainLinkSel:visited{font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; text-transform:uppercase; color:#735D4E;text-decoration:underline;}
+		a.TopMainLinkSel:hover{font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; text-transform:uppercase; color:#735D4E;text-decoration:underline;}
+
+		#midContainer {
+			width: auto;
+			height: auto;
+      }

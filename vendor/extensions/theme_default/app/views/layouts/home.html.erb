@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Rotsen Furniture's Home</title>
+<%= javascript_include_tag "jquery-1.2.6.min" %>
+<%= stylesheet_link_tag 'home' %>
+</head>
+<body>
+	<div id="container">
+		
+		<div id="midcontainer">
+			<div id="leftcolumn">
+				<div style="text-align:center; margin-top:70px;"><img src="../images/Logo.jpg"/></div>
+				<div style="text-align:center;"><img src="../images/spacer.gif" height="90px;"/></div>
+				<div style="text-align:center;"><%= link_to image_tag("custom.jpg", :border=>"0"), custom_path %><img src="../images/spacer.gif" height="20px;" width="85px;"/><%= link_to image_tag("ReadyToShip.jpg", :border=>"0"), products_path %></div>
+     				<div style="text-align:center;"><img src="../images/spacer.gif" height="78px;"/></div>
+				<div id="BottomBar">
+					<ul>
+						<li><%= link_to 'About', :controller => 'about', :action => 'index' %></li>
+						<li><%= link_to 'Press', :controller => 'about', :action => 'underconstruction' %></li>
+						<li><%= link_to 'Contact', :controller => 'about', :action => 'underconstruction' %></li>
+						<li><%= link_to 'Favorites', :controller => 'about', :action => 'underconstruction' %></li>
+						<%= render 'shared/login_bar' %>
+						
+					</ul>
+				</div>
+			</div>
+			<div id="rightcolumn">
+				 <script type="text/javascript">
+					var imgs = [
+					'../images/sideImage1.jpg',
+					'../images/sideImage2.jpg'];
+					var cnt = imgs.length;
+
+					$(function() {
+						setInterval(Slider, 3000);
+					});
+
+					function Slider() {
+					$('#imageSlide').fadeOut("slow", function() {
+					   $(this).attr('src', imgs[(imgs.length++) % cnt]).fadeIn("slow");
+					});
+					}
+				</script>
+			<img id="imageSlide" alt="" src="../images/sideImage1.jpg" />
+		</div>
+		</div>
+	</div>
+</body>
+</html>

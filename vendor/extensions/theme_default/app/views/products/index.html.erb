@@ -1,0 +1,12 @@
+
+<% get_taxonomies.each do |taxonomy| %>
+
+<ul class="product-listing">
+  <% taxonomy.root.children.each do |taxon| %>
+
+	    <li><b><%= taxon.name %></b>
+             <%= link_to image_tag(taxon.icon.url(:normal)), seo_url(taxon) %></li>
+	  <% end %>
+</ul>
+<% end %>
+

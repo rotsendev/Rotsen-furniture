@@ -1,0 +1,32 @@
+<div id="footer">
+   
+  <div class="left">
+       <% hook :footer_left do -%>
+
+    <p>
+    <%= link_to 'Home' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Custom' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Ready-To-Ship' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'About' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Press' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Contact' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Favorites' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Log-In' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Register' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Terms of Use' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to 'Privacy Policy' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+<%#= t("powered_by") %>
+   
+    <% end -%>
+  </div>
+  <div class="right">
+    <%#= hook :footer_right %>
+  </div>
+    
+   
+   
+   <br /><br />&copy; <%= ("Rotsen Furniture 2010") %>
+  
+</div>   
+<%#= render 'shared/google_analytics' %>
